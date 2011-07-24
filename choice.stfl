@@ -1,0 +1,22 @@
+table
+  label
+    text:""
+  vbox
+    label
+      text:""
+    table
+      label
+        .border:rltb .expand:0
+        text:"Select the event!"
+      tablebr
+      !list[filelist]
+        .border:rltb
+        style_focus:attr=bold
+        pos_name[listposname]:
+        pos[listpos]:0
+        listitem[orr] text:"  OpenRheinRuhr 2011"
+        listitem[froscon] text:"  Test Event 9000"
+    label
+      text:""
+  label
+    text:""

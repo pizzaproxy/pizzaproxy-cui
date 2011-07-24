@@ -1,0 +1,74 @@
+vbox
+  table
+    @number#style_normal:attr=bold
+    .expand:0
+    label#number
+      .border:ltb
+      .expand:0
+      text:"1"
+    label
+      .border:tb
+      .expand:0
+      text[menu1]:": Bestellung   "
+    label#number
+      .border:tb 
+      .expand:0
+      text:"2"
+    label
+      .border:tb 
+      .expand:0
+      text[menu2]:": Vorbestellungen   "
+    label#number
+      .border:tb
+      .expand:0
+      text:"3"
+    label
+      .border:tb
+      .expand:0
+      text[menu3]:": Lieferanten   "
+    label#number
+      .border:tb
+      .expand:0
+      text:"4"
+    label
+      .border:tb
+      .expand:0
+      text[menu4]:": Produkte   "
+    label#number
+      .border:tb
+      .expand:0
+      text:"5"
+    label
+      .border:tb
+      .expand:0
+      text[menu5]:": Optionen"
+    label
+      .border:tbr
+      .expand:h
+      .tie:r
+      style_normal:attr=bold
+      text[version]:"Pizzaproxy 1.0"
+
+  table
+    !list[list]
+      .colspan:2 .border:rltb
+      pos_name[listposname]:
+      pos[listpos]:0
+    tablebr
+    label
+      .border:ltb
+      .expand:0
+      text:"> "
+    input
+      .border:rtb
+      .expand:h
+      text[cmdline]:""
+    tablebr
+
+  hbox
+    .expand:h
+    label
+      .tie:r
+      style_normal:fg=black,bg=white
+      text[helpmsg]:"Press ESC to exit"
+
